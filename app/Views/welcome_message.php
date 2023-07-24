@@ -52,7 +52,7 @@ echo $this->section('content');
 
               <div class="info-box-content">
                 <span class="info-box-text">Jumlah Pegawai</span>
-                <span class="info-box-number">760</span>
+                <span class="info-box-number"><?php echo $jumlah_pegawai;?></span>
               </div>
               <!-- /.info-box-content -->
             </div>
