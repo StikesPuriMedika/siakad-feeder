@@ -18,8 +18,8 @@ class Home extends BaseController
 			'title' => 'halaman depan',
 			'jumlah_mahasiswa'=>$retjumlah_mahasiswa,
 			'jumlah_dosen'=>$retjumlah_dosen,
-			'jumlah_prodi'=>$retjumlah_prodi,
-			'jumlah_pegawai'=>$retjumlah_pegawai
+			'jumlah_prodi'=>$retjumlah_prodi
+			//'jumlah_pegawai'=>$retjumlah_pegawai
 		];
 		if(session()->type == "admin"){
 			return view('welcome_message',$data);
