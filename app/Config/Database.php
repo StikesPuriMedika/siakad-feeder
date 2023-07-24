@@ -31,10 +31,10 @@ class Database extends \CodeIgniter\Database\Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'http://web.akperyaspen.ac.id',
-		'username' => 'akperyas_web',
-		'password' => 'akperyaspen',
-		'database' => 'akperyas_web',
+		'hostname' => 'localhost',
+		'username' => '',
+		'password' => '',
+		'database' => '',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
