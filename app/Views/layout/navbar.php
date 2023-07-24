@@ -132,7 +132,7 @@ if($dataakun){
               <p>
                 Kelola Akademik
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">5</span>
+                <span class="badge badge-info right"></span>
               </p>
             </a>
             <ul class="nav nav-treeview">
@@ -559,7 +559,7 @@ if($dataakun){
               <p>
                 Setting Sistem
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">5</span>
+                <span class="badge badge-info right"></span>
               </p>
             </a>
             <ul class="nav nav-treeview">
