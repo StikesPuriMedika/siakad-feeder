@@ -12,11 +12,14 @@ class Home extends BaseController
 		$retjumlah_dosen	= ($jumlah_dosen)?count($jumlah_dosen):0;	
 		$jumlah_prodi 		= $this->msiakad_prodi->getdata();
 		$retjumlah_prodi	= ($jumlah_prodi)?count($jumlah_prodi):0;
+		$jumlah_pegawai 	= $this->msiakad_pegawai->getdata();
+		$retjumlah_pegawai	= ($jumlah_pegawai)?count($jumlah_pegawai):0;
 		$data = [
 			'title' => 'halaman depan',
 			'jumlah_mahasiswa'=>$retjumlah_mahasiswa,
 			'jumlah_dosen'=>$retjumlah_dosen,
-			'jumlah_prodi'=>$retjumlah_prodi
+			'jumlah_prodi'=>$retjumlah_prodi,
+			'jumlah_pegawai'=>$retjumlah_pegawai
 		];
 		if(session()->type == "admin"){
 			return view('welcome_message',$data);
